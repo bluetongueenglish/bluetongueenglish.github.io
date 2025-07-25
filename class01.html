@@ -1,0 +1,36 @@
+<HTML>
+<head><TITLE>HELLO-O!</TITLE>
+<STYLE>
+    body {
+        background-color: aquamarine;
+        color:darkblue;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align:center
+    }
+    input {
+        background-color: rgb(214, 210, 122);
+        font-size: medium;
+    }
+    #email{
+        background-color: rgb(147, 184, 182);
+    }
+    body, input, button{font-size:small}
+</STYLE></head>
+<body>
+    Hi, <strong>people!</strong><BR />
+    Good &nbsp; morning. <em>Good Afternoon</em><BR>
+        <button onclick="FunctionName()">Play</button><br>
+        <a href="http://www.google.com">Ir para o Google</a>
+        <input id="text" style="color:red;border-color:white"><br>
+        <input id="email">
+</body>
+<script>
+    function FunctionName(){
+        //location.href="https://www.google.com"
+        //alert("Good night")
+        var qtde =document.getElementById("text").value
+        alert(qtde)
+    }
+</script>
+</HTML>
